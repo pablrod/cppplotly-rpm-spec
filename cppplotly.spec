@@ -9,8 +9,8 @@ Source0: %{url}/archive/v%{version}.tar.gz
 
 BuildRequires: cmake >= 3.1.0
 BuildRequires: gcc-c++ >= 5.3.1      
-BuildRequires: json11 >= 1.0.0      
-Requires: json11 >= 1.0.0      
+BuildRequires: json11-devel >= 1.0.0      
+Requires: json11-devel >= 1.0.0      
 
 %define debug_package %{nil}
 
