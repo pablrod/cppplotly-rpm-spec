@@ -1,5 +1,5 @@
 Name: cppplotly
-Version: 0.2.0
+Version: 0.3.0
 Release: 1%{?dist}
 Summary: Generate html/javascript charts from C++ data using javascript library plotly.js
 
@@ -539,4 +539,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Sun Jan 27 2019 Pablo Rodríguez González <pablo.rodriguez.gonzalez@gmail.com>
-- Created SPEC file for RPM from CppPlotly version 0.2.0
+- Created SPEC file for RPM from CppPlotly version 0.3.0
